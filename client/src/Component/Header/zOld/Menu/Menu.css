@@ -1,0 +1,15 @@
+.iconsImgWrapper{
+    height: 40px;
+    line-height: 40px;
+}
+
+.iconsImgWrapper img{
+    width: 24px;
+    height: 24px;
+    padding: 12px;
+}
+
+.iconsImgWrapper img:hover{
+    background-color: #eee;
+    border-radius: 50%;
+}

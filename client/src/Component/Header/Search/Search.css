@@ -1,0 +1,26 @@
+.search{
+    height: 64px;
+    line-height: 64px;
+
+}
+
+.search input{
+    height: 36px;
+    width: 873px;
+    border: 0px solid white;
+    line-height: 64px;
+    background-color: #eee;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 20px;
+}
+input{
+    padding-left: 16px;
+}
+
+.search input:focus {
+    box-shadow: 0 0 0 4px rgba(0, 132, 255, 0.5);
+    outline: 0;
+}
+

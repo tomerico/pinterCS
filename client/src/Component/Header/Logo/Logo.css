@@ -1,0 +1,19 @@
+.logoicon{
+    /* line-height: 86px; */
+    margin-left: 16px;
+    height: 64px;
+}
+
+.logoicon img{
+    width: 32px;
+    height: 32px;
+    line-height: 64px;
+    padding: 10px;
+    margin-top: 6px;
+}
+
+.logoicon img:hover{
+    background-color: #eee;
+    border-radius: 50%;
+
+}

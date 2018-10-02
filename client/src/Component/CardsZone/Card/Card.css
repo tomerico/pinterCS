@@ -1,0 +1,24 @@
+.Card {
+
+    width:256px;
+    /* display: inline-block;    */
+}
+
+.CardWrapper{
+
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.CardWrapper:hover{
+
+    background-color: #eee;
+}
+
+
+.Card img{
+
+    width:236px;
+    /* height: 352px; */
+    border-radius: 5px;
+}

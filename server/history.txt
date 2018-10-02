@@ -1,0 +1,500 @@
+   52  cd c:/users/tomer/appdata/local/programs/python/python35
+   53  cd -
+   54  cd -
+   55  ll
+   56  python.exe 
+   57  cd -
+   58  python
+   59  winpty python.exe
+   60  ll
+   61  winpty ase.py 
+   62  ase.py 
+   63  winpty python.exe
+   64  python ase.py 
+   65  gitk
+   66  ll
+   67  cd scorers/
+   68  ll
+   69  rm __init__.pyc
+   70  rm basic.pyc
+   71  rm scorer.pyc
+   72  ll
+   73  cd ../data/
+   74  ll
+   75  cd ../
+   76  ll
+   77  python ase.py 
+   78  PATH=$PATH:~/Desktop/technical/development/travelpro_ase/ASE
+   79  PATH
+   80  path
+   81  python ase.py 
+   82  PATH=$PAT:~/Desktop/technical/development/travelpro_ase/ASE
+   83  printenv
+   84  env|grep PATH
+   85  env
+   86  export PATH=$PAT:~/Desktop/technical/development/travelpro_ase/ASE
+   87  python ase.py 
+   88  python ase.py
+   89  ll
+   90  ls
+   91  ll
+   92  cd ../
+   93  ll
+   94  ls
+   95  export PATH=$PATH:~/Desktop/technical/development/travelpro_ase/ASE
+   96  ll
+   97  cd ASE/
+   98  ll
+   99  ls
+  100  dir
+  101  ll
+  102  ll
+  103  cd ~/Desktop/technical/development/travelpro_ase/
+  104  ll
+  105  cd ASE/
+  106  ll
+  107  ase.py
+  108  python ase.py
+  109  history | grep python
+  110  winpty ase.py 
+  111  winpty ase.py 
+  112  winpty python.exe ase.py 
+  113  cd ~/Desktop/technical/development/travelpro_presentation_14_12_17/travelpro/
+  114  ll
+  115  cd el-al-landing-page/
+  116  ll
+  117  cd ../
+  118  cd frontend/
+  119  grep -rwn . -e "el al"
+  120  grep -rwn . -e "enjoy"
+  121  gulp
+  122  cd ../backend/
+  123  ll
+  124  python
+  125  gulp
+  126  cd ../frontend/
+  127  gulp
+  128  ll
+  129  ll
+  130  cd ~/Desktop/technical/development/travelpro_presentation_14_12_17/
+  131  cd travelpro/
+  132  ll
+  133  cd frontend/
+  134  gulp
+  135  cd Desktop/githubProjects/facebookEx
+  136  echo "# facebookEx" >> README.md
+  137  ll
+  138  git init
+  139  git add README.md
+  140  git commit -m "first commit"
+  141  git remote add origin https://github.com/tomerico/facebookEx.git
+  142  git push -u origin master
+  143  git remote -v
+  144  git remote remove origin 
+  145  git remote add origin https://github.com/tomerico/facebookEx.git
+  146  git push -u origin master
+  147  git push -u origin master
+  148  git push -u origin master 1fb5ae50c184ee4713f578c671daa981ab254b83
+  149  git push -u origin master
+  150  git status
+  151  ls -la
+  152  cd project_27_5_facebook_scss/
+  153  git add *
+  154  git commit -m "Adding new files"
+  155  git push -u origin master
+  156  pwd
+  157  cd ./images/
+  158  ll
+  159  ls -la
+  160  cd ../
+  161  git add ./images/dafiyuvi.png
+  162  git add index.html 
+  163  git commit -m "adding photo and update path in index.html"
+  164  git push -u origin master
+  165  cd 
+  166  pwd
+  167  cd Desktop/githubProjects/
+  168  cd facebook/
+  169  git clone https://github.com/tomerico/facebookEx.git
+  170  cd ../
+  171  git clone https://github.com/tomerico/facebookEx.git
+  172  ll
+  173  cd facebookEx/
+  174  ll
+  175  echo "# facebookEx" >> README.md
+  176  git init
+  177  ll
+  178  ls -la
+  179  git add README.md
+  180  git commit -m "first commit"
+  181  git remote add origin https://github.com/tomerico/facebookEx.git
+  182  git push -u origin master
+  183  git push -u origin master
+  184  dir
+  185  rm README.md 
+  186  ll
+  187  ls -la
+  188  git status
+  189  git status
+  190  git remote add origin https://github.com/tomerico/facebookEx.git
+  191  cd ../
+  192  git remote add origin https://github.com/tomerico/facebookEx.git
+  193  cd Desktop/githubProjects/
+  194  cd facebookEx/project_27_5_facebook_scss/
+  195  ll
+  196  cd images/
+  197  ll
+  198  mv yuval_birthday.png yuval_birthday_.png 
+  199  ll
+  200  ll
+  201  cd ../
+  202  git add index.html
+  203  git add images/beach.jpg 
+  204  git commit -m "replace image"
+  205  git push -u origin master
+  206  ll
+  207  pwd
+  208  cd Desktop/githubProjects/
+  209  ll
+  210  cd facebookEx
+  211  ll
+  212  ls -a
+  213  cd ~/Desktop/githubProjects/facebookEx
+  214  ll
+  215  cd project_27_5_facebook_scss/
+  216  ls -la
+  217  git branch
+  218  pwd
+  219  cd ~
+  220  cd Desktop/githubProjects/facebookEx/project_27_5_facebook_scss/
+  221  ll
+  222  git init
+  223  ll
+  224  ls -la
+  225  git branch
+  226  git show-branch
+  227  ls -la
+  228  webpack -v
+  229  npm install webpack
+  230  ll
+  231  ls -la
+  232  npm init
+  233  ll
+  234  npm install webpack
+  235  ll
+  236  git status
+  237  git diff source.js
+  238  git k
+  239  gitk
+  240  cd ../../facebookEx_Copy2/
+  241  ll
+  242  cd project_27_5_facebook_scss/
+  243  ll
+  244  ls -la
+  245  cd ../../facebookEx_Copy1/
+  246  cd project_27_5_facebook_scss/
+  247  ls -la
+  248  cd ../../facebookEx
+  249  cd project_27_5_facebook_scss/
+  250  ls -la
+  251  vi .git/
+  252  cd ../../zz_backup_from_server_facebook_clone_14_7_18/facebookEx/project_27_5_facebook_scss/
+  253  ls -la
+  254  cd ../../../facebookEx
+  255  pwd
+  256  cd ../
+  257  ls -la
+  258  cd facebookEx
+  259  ls -la
+  260  vi .git/
+  261  cd project_27_5_facebook_scss/
+  262  ls -la
+  263  vi source.js 
+  264  git branch 
+  265  cd ../
+  266  ll
+  267  ls -la
+  268  git branch master
+  269  git checkout master
+  270  ll
+  271  cd project_27_5_facebook_scss/
+  272  ll
+  273  vi source.js 
+  274  vi .git
+  275  git status
+  276  cd css/
+  277  git add *
+  278  git status
+  279  cd ../
+  280  cd facebook/
+  281  git add *
+  282  cd ../fontawesome-free-5.0.13/
+  283  git add *
+  284  ll
+  285  cd ../
+  286  ll
+  287  git status
+  288  cd icons/
+  289  git add *
+  290  git add index.html
+  291  cd ../
+  292  git add index.html
+  293  git add package.json
+  294  cd scss
+  295  git add *
+  296  cd ../
+  297  git add server.js
+  298  git add source.js 
+  299  git status
+  300  cd images
+  301  git add *
+  302  git status
+  303  git commit -m "push after I did git init by mistake"
+  304  git push -u origin master
+  305  git status
+  306  git push -u origin master
+  307  cd ../
+  308  git push -u origin master
+  309  cd ~/Desktop/VScode/proj_jquery_require_webpack_training/
+  310  ll
+  311  webpack
+  312  webpack webpack-example/main.js -o app.js
+  313  ll
+  314  cd node_modules/
+  315  ll
+  316  ll | grep jquery
+  317  ls -la | grep jquery
+  318  npm install jquery
+  319  ls -la | grep jquery
+  320  cd Desktop/VScode/proj_jquery_require_webpack_training/
+  321  ll
+  322  ls -la
+  323  webpack -v
+  324  npm init
+  325  ll
+  326  npm init
+  327  npm init
+  328  ll
+  329  nano package.json 
+  330  vi package.json 
+  331  ll
+  332  npm i webpack
+  333  ll
+  334  cd node_modules/
+  335  ll
+  336  cd ../
+  337  ll
+  338  webpack -v
+  339  npm init
+  340  ll
+  341  npm init
+  342  ll
+  343  vi package.json 
+  344  ll
+  345  npm i webpack
+  346  vi package.json 
+  347  npm i webpack
+  348  ll
+  349  cat ./webpack-example/main.js 
+  350  npm i jquery
+  351  history
+  352  history | grep webp
+  353  ll
+  354  history
+  355  cd ¬
+  356  cd ~/Desktop/VScode/reactApp/
+  357  ll
+  358  npm init react-app myReactApp
+  359  npm init react-app myreactapp
+  360  ll
+  361  cd myreactapp/
+  362  ll
+  363  cd src/
+  364  ll
+  365  cd ..
+  366  ll
+  367  cs public/
+  368  cd public/
+  369  ll
+  370  cd ../
+  371  ll
+  372  cd ../
+  373  ll
+  374  cd ~/Desktop/VScode/reactProj/
+  375  ll
+  376  webpack-dev-server
+  377  cs js/
+  378  cd ./js/
+  379  ll
+  380  cd components/
+  381  ll
+  382  vi app.react.js 
+  383  ll
+  384  cd ../
+  385  cd ../
+  386  ll
+  387  nano index.nann
+  388  cd ~/Desktop/VScode/serverExpressRoyLessonAtHome/
+  389  ll
+  390  npm i express
+  391  ll
+  392  git init
+  393  ll
+  394  npm init
+  395  ll
+  396  ll
+  397  npm i express
+  398  ll
+  399  ll
+  400  cd node_modules/
+  401  ll
+  402  ll | grep express
+  403  cd ~/Desktop/VScode/serverExpressRoyLessonAtHome/
+  404  ll
+  405  npm init
+  406  ll
+  407  history
+  408  npm i express
+  409  ll
+  410  node server.js 
+  411  mkdir server
+  412  mv server.js server
+  413  ll
+  414  cd server/
+  415  npm i express
+  416  ll
+  417  node server.js 
+  418  cd ~/Desktop/pinterestApp/
+  419  ll
+  420  npm init react-app client
+  421  ll
+  422  cd client/
+  423  ll
+  424  npm start
+  425  npm run build
+  426  npm run build
+  427  npm start
+  428  cd ../
+  429  cd -
+  430  ll
+  431  cd src/
+  432  ll
+  433  vi App.js 
+  434  cd ../../
+  435  mkdir server
+  436  ll
+  437  cd server/
+  438  ll
+  439  ll
+  440  ll
+  441  npm init
+  442  npm init
+  443  ll
+  444  npm install express
+  445  ll
+  446  touch server.js
+  447  ll
+  448  cd ~/Desktop/test/
+  449  ll
+  450  npm init
+  451  ll
+  452  ll
+  453  npm install webpack
+  454  ll
+  455  cd node_modules/
+  456  ll
+  457  cd -
+  458  vi package.json 
+  459  vi package-lock.json 
+  460  npm install -g webpack-dev-server --save-dev
+  461  npm install sass-loader node-sass webpack --save-dev
+  462  npm install style-loader --save-dev
+  463  npm install css-loader --save-dev
+  464  cd ~/Desktop/todos/
+  465  ll
+  466  npm init react-app todos
+  467  cd ~/Desktop/pinterestApp/
+  468  ll
+  469  cd server/
+  470  ll
+  471  cd ~/Desktop/todos/
+  472  cd todos/
+  473  ll
+  474  npm start
+  475  npm start
+  476  cd ~/Desktop/VScode/serverExpress
+  477  LL
+  478  ll
+  479  cd server
+  480  ll
+  481  ll
+  482  nodemon server.js 
+  483  nodemon server.js 
+  484  cd ~/Desktop/VScode/pinterestClone_beforeDeleteProject_until_15_8_18/
+  485  ll
+  486  git clone 
+  487  git clone https://github.com/tomerico/pinterest.git
+  488  ll
+  489  cd pinterest/
+  490  ll
+  491  git branch
+  492  cd ../../../
+  493  cd -
+  494  cd ~/Desktop/VScode/pinterestClone_beforeDeleteProject_until_15_8_18_devBranch/
+  495  git clone https://github.com/tomerico/pinterest.git
+  496  ll
+  497  cd pinterest/
+  498  git branch
+  499  cd ~/Desktop/pinterApp/
+  500  LL
+  501  ll
+  502  cd ../pinterApp/
+  503  ll
+  504  cd client/
+  505  ll
+  506  ls -la
+  507  ls -la
+  508  git remote add origin https://github.com/tomerico/pinterestApp.git
+  509  ls -la
+  510  git status
+  511  vi .git
+  512  ll
+  513  ls -la
+  514  git add README.md 
+  515  git commit -m "first commit"
+  516  cd src/Component/Header/Header.js 
+  517  vi src/Component/Header/Header.js 
+  518  git add src/Component/Header/Header.js 
+  519  cd src/Component/
+  520  ll
+  521  git status
+  522  git add Header/Home/Home.js 
+  523  git add Header/Search/search.css 
+  524  GIT STATUS
+  525  git status
+  526  git rm Media/Icons/pinterestlogo.png
+  527  git commit -m "first commit"
+  528  git remote add origin https://github.com/tomerico/pinterestApp.git
+  529  git push -u origin master
+  530  cd ../../
+  531  cd ../../
+  532  cd pinterApp
+  533  LL
+  534  ll
+  535  git clone https://github.com/tomerico/pinterestApp.git
+  536  ll
+  537  cd pinterestApp/
+  538  ll
+  539  ll
+  540  ls -la
+  541  cd ../../
+  542  cd -
+  543  cd ../../pinterestApp/server/
+  544  ll
+  545  nodemon server.js 
+  546  nodemon server.js 
+  547  nodemon server.js 
+  548  nodemon server.js 
+  549  nodemon server.js 
+  550  history >> ../history.txt
+  551  history >> ./history.txt
