@@ -13,11 +13,11 @@
   //   "test": "echo \"Error: no test specified\" && exit 1"
   // },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "react": "cd client && npm run build",
-    "installserver": "cd server && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1",//
+    "client": "cd client && npm run build",//
+    "installserver": "cd server && npm i",//
     "server": "cd server && npm start",
-    "postinstall": "npm run react && npm run installserver",
+    "postinstall": "npm run client && npm run installserver",
     "start": "npm run server"
   },
   "author": "",
