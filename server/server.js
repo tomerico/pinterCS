@@ -12,5 +12,11 @@ server.use("/api/cardsData/", cardsData);
 const distFolder = path.join(__dirname, '../client/build');
 server.use(express.static(distFolder));
 
-server.listen(9092);
+// server.listen(9092);
 console.log("pinterest server starts, run on port:9092");
+
+
+server.listen(process.env.PORT || 9092,(error)=>{
+    if(error)console.log(error.message);
+    console.log('listening on http://localhost:9092')
+});
