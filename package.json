@@ -3,14 +3,22 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  // "scripts": {
+  //   "installclient": "cd client && npm i",
+  //   "installserver": "cd server && npm i",
+  //   "postinstall": "npm run installclient && npm run installserver && npm run client",
+  //   "client": "cd client && npm run build",
+  //   "server": "cd server && npm start server.js",
+  //   "start": "npm run server",
+  //   "test": "echo \"Error: no test specified\" && exit 1"
+  // },
   "scripts": {
-    "installclient": "cd client && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "cd webapp && npm run build",
     "installserver": "cd server && npm i",
-    "postinstall": "npm run installclient && npm run installserver && npm run client",
-    "client": "cd client && npm run build",
-    "server": "cd server && node server.js",
-    "start": "npm run server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "cd server && npm start",
+    "postinstall": "npm run react && npm run installserver",
+    "start": "npm run server"
   },
   "author": "",
   "license": "ISC",
