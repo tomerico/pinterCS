@@ -1,0 +1,12 @@
+.generalMenu{
+
+    position: absolute;
+    margin-top: 68px;
+    height: 440px;
+    width: 375px;
+    border: solid 1px #eee;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    overflow: auto;
+}

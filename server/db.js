@@ -1,6 +1,10 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/pinterestDB');
+let DB_URL = process.env.DB_URL || 'mongodb://localhost:27017/pinterestDB';
+//I need to put environmet variable in heroku
+
+//mongoose.connect('mongodb://localhost:27017/pinterestDB');
+mongoose.connect(DB_URL);
 
 module.exports = mongoose;
 

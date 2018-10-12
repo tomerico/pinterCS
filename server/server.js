@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const users = require('./users/index');
-const cardsData = require('./cardsData/index');
+const users = require('./users/Index');
+const cardsData = require('./cardsData/Index');
 const path = require('path');
 const server = express();//server is express application, not must to be server can be called app
 
@@ -13,8 +13,7 @@ const distFolder = path.join(__dirname, '../client/build');
 server.use(express.static(distFolder));
 
 // server.listen(9092);
-console.log("pinterest server starts, run on port:9092");
-
+//console.log("pinterest server starts, run on port:9092");
 
 server.listen(process.env.PORT || 9092,(error)=>{
     if(error)console.log(error.message);
