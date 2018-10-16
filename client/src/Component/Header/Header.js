@@ -84,21 +84,15 @@ class Header extends Component {
                   {/* the using of 3 dots like this ...this.state.tabIcons[0] is spread that in practice 
                       seperate the keys, instead we will need to spread and write it by ourselves, it also
                       relevant to passing props {...this.props} */}
-
                    {/*no necessity to use key  */}
                   <TabOfMsgWrapper {...this.state.tabIcons[0]} onIconClick={this.onIconClick} />  
                   <TabOfMsgWrapper {...this.state.tabIcons[1]} onIconClick={this.onIconClick} />  
                   <TabOfMsgWrapper {...this.state.tabIcons[2]} onIconClick={this.onIconClick} />  
-                  {/* tabIconsSpecificCell={this.state.tabIcons[0]} */}
-                  {/* <TabOfPostWrapper imgSrc={('notification.png')}/>   */}
-                  {/* <TabOfBusinessWrapper imgSrc={('ellipsis.png')}/>   */}
-                  
-                  
-
+                
                   <Menu openMenuState = {this.state.openedMenu} presentedText = {this.getCurrentIconText(this.state.openMenu)}/>
                   {/* {!!this.state.openedMenu && <Menu openMenuState = {this.state.openedMenu}/>} */}
 
-                  {/* <IconMenu icon={'message-icon'}>
+                  <IconMenu icon={'message-icon'}>
                       <MessagesContent/>
                   </IconMenu>
 
@@ -108,7 +102,7 @@ class Header extends Component {
 
                   <IconMenu icon={'menu-icon'}>
                       <MenuContent/>
-                  </IconMenu> */}
+                  </IconMenu>
               </div>
         </div>
       // </div>
