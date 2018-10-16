@@ -12,10 +12,12 @@
     "start": "npm run server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "author": "",
   "license": "ISC",
   "dependencies": {
     "npm": "^6.4.1"
+  },
+  "devDependencies": {
+    "karma": "^3.0.0"
   }
 }

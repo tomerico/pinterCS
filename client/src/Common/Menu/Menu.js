@@ -3,9 +3,12 @@ import './Menu.css';
 
 const Menu = props => ({
 
-    render() {
+  
+  render() {
         //this.props.menuspecificinfo - the content we want to present in the menu
-      return <div className="generalMenu">{this.props.menuspecificinfo}</div>;
+      if(!this.props.openMenuState) return null;
+
+      return <div className="generalMenu">{this.props.presentedText}</div>;
     },
   });
 
