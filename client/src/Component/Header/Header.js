@@ -92,7 +92,7 @@ class Header extends Component {
                   <Menu openMenuState = {this.state.openedMenu} presentedText = {this.getCurrentIconText(this.state.openMenu)}/>
                   {/* {!!this.state.openedMenu && <Menu openMenuState = {this.state.openedMenu}/>} */}
 
-                  <IconMenu icon={'message-icon'}>
+                  {/* <IconMenu icon={'message-icon'}>
                       <MessagesContent/>
                   </IconMenu>
 
@@ -102,7 +102,7 @@ class Header extends Component {
 
                   <IconMenu icon={'menu-icon'}>
                       <MenuContent/>
-                  </IconMenu>
+                  </IconMenu> */}
               </div>
         </div>
       // </div>
